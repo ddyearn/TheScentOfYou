@@ -967,7 +967,7 @@ Aldron
 Amber
 Amber Xtreme
 Ambergris
-Ambertonic¢â (IFF)
+AmbertonicÂ¢Ã¢ (IFF)
 Ambrarome
 Ambretone
 Ambrette (Musk Mallow)
@@ -1069,16 +1069,16 @@ Vodka
 Whiskey
 White Wine
 Wine Lees
-Accord Eudora¢ç
+Accord EudoraÂ¢Ã§
 Alcantara Accord
 Aldehydes
 Aluminum
 Ambrinol
-AMBROX¢ç SUPER
+AMBROXÂ¢Ã§ SUPER
 Ammonia
 Amyl Salicylate
-Antillone¢â
-Aqual¢â
+AntilloneÂ¢Ã¢
+AqualÂ¢Ã¢
 Aquozone
 Ash
 Asphalt
@@ -1096,7 +1096,7 @@ Caoutchouc
 Cascalone
 Cashalox
 Cashmeran
-Cetonal¢ç
+CetonalÂ¢Ã§
 Chalk
 Clarycet
 Clay
@@ -1141,7 +1141,7 @@ Hedione
 Helvetolide
 Hexyl Acetate
 Hina
-Hivernal¢ç
+HivernalÂ¢Ã§
 Hot Iron
 Ice
 Indole
@@ -1154,7 +1154,7 @@ Javanol
 Jeans
 latex
 Lava
-Lilybelle¢ç
+LilybelleÂ¢Ã§
 Linen
 Lip Gloss
 Lipstick
@@ -1173,9 +1173,9 @@ Mousse de Saxe
 Mugane
 Muscenone
 Mystikal
-NaturalCalm¢â
+NaturalCalmÂ¢Ã¢
 Neoprene
-Norlimbanol¢â
+NorlimbanolÂ¢Ã¢
 Ozonic Notes
 Paper
 Para-Cresyl Phenyl Acetate
@@ -1185,7 +1185,7 @@ Peat
 Pebbles
 Pencil
 Petalia
-Pharaone¢ç
+PharaoneÂ¢Ã§
 Pink Crystal
 Pink Himalayan Sea Salt
 Plastic
@@ -1201,7 +1201,7 @@ Salicylic Acid
 Salt
 Sand
 Satin
-Scent Trek¢ç
+Scent TrekÂ¢Ã§
 Sclarene
 Sea Water
 Silk
@@ -1222,9 +1222,9 @@ Talc
 Tennis Ball
 Terpineol
 Terranol
-Timbersilk¢â
-Tonquitone¢â
-Trimofix¢ç
+TimbersilkÂ¢Ã¢
+TonquitoneÂ¢Ã¢
+TrimofixÂ¢Ã§
 Tuberolide
 Tulle accord
 Vanillin
