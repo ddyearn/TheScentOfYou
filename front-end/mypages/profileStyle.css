@@ -1,0 +1,101 @@
+.container{
+    height: 100%;
+    background-image: url('../img/background2.png');
+    background-size: cover;
+    font-family: 'Gmarket Sans TTF';
+  }
+
+.content {
+    background: rgba(255, 255, 255, 1);
+    padding: 5em;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+form {
+    width: fit-content;
+    margin: auto;
+}
+
+
+table {
+    width: fit-content;
+}
+
+
+.profile {
+    width: 375px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.num {
+    width: 124px;
+}
+
+.td2 {
+    width: fit-content;
+}
+
+.btn1 {
+    text-align: center;
+    margin: auto;
+}
+
+#n {
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+label {
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+#gender {
+    margin: 5px;
+}
+
+#withdrawal {
+    width: 108px;
+    height: 47.15px;
+    background: #F1F1F1;
+    border: none;
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8169px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#cancel, #submitbtn {
+    width: 108.99px;
+    height: 47.59px;
+    background: #252525;
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.027px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+  }

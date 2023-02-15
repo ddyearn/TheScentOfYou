@@ -1,0 +1,90 @@
+
+#mainGround h1{
+  text-align: center;
+  padding: 10%;
+}
+
+h4{
+  display: inline;
+}
+
+#iconR{
+  float: right; 
+  width:25px;
+  height: 25px;
+  margin-right: 3%;
+}
+.row{
+  margin: 10px;
+  padding-top: 1em;
+  background-color: white;
+}
+
+/*  */
+.content{
+  margin: 1em;
+}
+#colums{
+  column-width: 100%;
+}
+img{
+  width: 20%;
+  border: 1px solid #ccc;
+}
+#colums figure{
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+#colums span{
+  display: inline-block;
+  background-color:aliceblue;
+  text-align: center;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 5px;
+}
+figcaption{
+  display: inline-block;
+  text-align: left;
+}
+figure img{
+  width: 10em;
+  height: 8em;
+}
+figure button{
+  float: right;
+  border: 0;
+  background-color: white;
+}
+
+/*  */
+#searchTitle{
+  margin-left: 1em;
+}
+#searchGroup{
+  padding: 1em;
+  margin-bottom: 5px;
+}
+#exampleDataList2{
+  border: none;
+  border-bottom: solid 1px black;
+  border-radius: 0;
+}
+#inputState{
+  border: none;
+  border-bottom: solid 1px black;
+  border-radius: 0;
+}
+.container{
+  height: 100%;
+  background-image: url('../img/background2.png');
+  background-size: cover;
+  font-family: 'Gmarket Sans TTF';
+}
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}

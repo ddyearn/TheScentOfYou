@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link type="text/css" rel="stylesheet" href="./searchStyle.css">
+  <!--  부트스트랩 웹폰트  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- 22.08.22 수정사항 : 스크립트 추가 브랜드 검색 필터 삭제 및 향 종류 option 수정 -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#headers").load("../default.html"); // 원하는 파일 경로를 삽입하면 된다
+	});
+
+	function changehtml() {
+		var property = document.getElementById('inputStateP').value;
+		var show = document.getElementById('inputStatePP');
+		if (property == "Citrus") {
+			show.innerHTML = '<option>Citrus</option>;<option>Citrus Aromatic</option>;<option>Citrus Gourmand</option>;';
+		} else if (property == "Floral") {
+			show.innerHTML = '<option>Floral</option>;<option>Floral Aldehyde</option>;<option>Floral Aquatic</option>;<option>Floral Woody Musk</option>;<option>Floral Fruity Gourmand</option>;<option>Floral Green</option>;<option>Floral Fruity</option>;';
+		} else if (property == "Woody") {
+			show.innerHTML = '<option>Woody</option>;<option>Woody Spicy</option>;<option>Woody Floral Musk</option>;<option>Woody Aromatic</option>;<option>Woody Chypre</option>;<option>Woody Aquatic</option>;';
+		} else if (property == "Oriental") {
+			show.innerHTML = '<option>Oriental</option>;<option>Oriental Floral</option>;<option>Oriental Fougere</option>;<option>Oriental Woody</option>;<option>Oriental Spicy</option>;<option>Oriental Vanilla</option>;';
+		} else if (property == "Aromatic") {
+			show.innerHTML = '<option>Aromatic</option>;<option>Aromatic Fougere</option>;<option>Aromatic Spicy</option>;<option>Aromatic Fruity</option>;<option>Aromatic Aquatic</option>;<option>Aromatic Green</option>;';
+		} else if (property == "Leather") {
+			show.innerHTML = '<option>Leather</option>;';
+		} else if (property == "Chypre") {
+			show.innerHTML = '<option>Chypre</option>;<option>Chypre Floral</option>;<option>Chypre Fruity</option>;';
+		}
+	}
+
+	function getSearchList() {
+		$.ajax({
+			type : 'GET',
+			url : "/scentofyou/search.do",
+			data : $("form[name=searchForm]").serialize(),
+			success : function(result) {
+				//테이블 초기화
+				$('#boardtable > tbody').empty();
+				if (result.length >= 1) {
+					result.forEach(function(item) {
+						str = '<tr>'
+						str += "<td>" + item.perfumeImg + "</td>";
+						str += "<td>" + item.name + "</td>";
+						str += "</tr>"
+						$('#boardtable').append(str);
+					})
+				}
+			}
+		})
+	}
+</script>
+ </head>
+
+<body>
+  
+  <div class="container">
+   <div id="headers"></div>
+   <div id="mask"></div>
+    
+   <!-- form 태그 추가 -->
+		<form method="get" action="/jsp">
+			<div class="row">
+				<h4 id="searchTitle">향수검색</h4>
+				<div id="searchGroup">
+					<div class="row row-cols-4" id="searchLine">
+						<div class="col-4">
+							<div class="input-group">
+								<input class="form-control" autocomplete="off"
+									list="datalistOptions" id="exampleDataList" placeholder="향수명"
+									name="perfumeName">
+								<datalist id="datalistOptions">
+									<option value="샤넬 N°5 로 오 드 뚜왈렛" label="CHANEL">
+									<option value="향수명" label="brand name">
+									<option value="향수명" label="brand name">
+									<option value="향수명" label="brand name">
+									<option value="향수명" label="brand name">
+								</datalist>
+								<button class="btn btn-outline-secondary" type="submit">
+									<i class="bi bi-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- 22.08.22 수정사항 : 스크립트 추가 브랜드 검색 필터 삭제 및 향 종류 option 수정 -->
+						<div class="col-3">
+							<select id="inputStateP" class="form-select"
+								onclick="changehtml();">
+								<option selected>향 종류</option>
+								<option>Citrus</option>
+								<option>Floral</option>
+								<option>Woody</option>
+								<option>Oriental</option>
+								<option>Aromatic</option>
+								<option>Leather</option>
+								<option>Chypre</option>
+							</select>
+						</div>
+						<div class="col-3">
+							<select id="inputStatePP" name="categoryType" class="form-select">
+								<option selected>향 종류</option>
+							</select>
+						</div>
+						<div class="col-2">
+							<!-- <label for="inputState" class="form-label">State</label> -->
+							<select id="inputState" name="genderType" class="form-select">
+								<option selected>성별</option>
+								<option>women</option>
+								<option>men</option>
+								<option>unisex</option>
+							</select>
+						</div>
+					</div>
+				</div>
+		</form>
+		<div id="colums">
+			<table id="boardtable">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

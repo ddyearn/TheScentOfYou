@@ -1,0 +1,109 @@
+.container{
+    height: 100%;
+    background-image: url('../img/background2.png');
+    background-size: cover;
+  }
+
+.content {
+    background: rgba(255, 255, 255, 1);
+    padding: 5em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.p-div {
+    border: 1px solid;
+    width: 544px;
+    height: 77px;
+    margin-left: 1em;
+    float: left;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    background: #D9D9D9;
+}
+
+.e-div {
+    border: 1px solid;
+    border-left: none;
+    width: 544px;
+    height: 77px;
+    float: left;
+}
+
+.f-div {
+    border: 1px solid;
+    border-top: none;
+    width: 1088px;
+    height: 500px;
+    margin-left: 1.5em;
+    padding: 10%;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 617px;
+    height: 111.73px;
+    text-align: left;
+}
+
+#submitbtn {
+    width: 80px;
+    height: 34.93px;
+    background: #252525;
+
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.9014px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#n {
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24.6471px;
+    line-height: 28px;
+}
+
+.inputbox {
+    width: 308.09px;
+    height: 44.36px;
+
+    border: 0.821571px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.f-div a {
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+a:link {text-decoration:none; color:#000000;} 
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+  }

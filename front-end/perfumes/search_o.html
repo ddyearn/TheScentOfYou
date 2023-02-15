@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link type="text/css" rel="stylesheet" href="./searchStyle.css">
+  <!--  부트스트랩 웹폰트  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript">   
+  $(document).ready( function() {
+    $("#headers").load("../default.html");  // 원하는 파일 경로를 삽입하면 된다
+  });
+  </script>
+ </head>
+
+<body>
+  
+  <div class="container">
+   <div id="headers"></div>
+   <div id="mask"></div>
+    
+   <div class="row">
+    <h4 id="searchTitle"><i class="bi bi-search"></i> 향수검색</h4>
+    <div id="searchGroup">
+      <div class="row row-cols-4" id="searchLine">
+        <div class="col-6">
+          <div class="input-group">
+            <input class="form-control" autocomplete="off" list="datalistOptions" id="exampleDataList" placeholder="향수 명" >
+              <datalist id="datalistOptions">
+                <option value="샤넬 N°5 로 오 드 뚜왈렛" label="CHANEL">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+              </datalist>
+            <button class="btn btn-outline-secondary" type="button"><i class="bi bi-search"></i></button>
+          </div>
+        </div>
+        
+        <div class="col-4"> 
+          <select id="inputState" class="form-select">
+            <option selected>향 종류</option>
+            <option>Aromatic</option>
+            <option>Chypre</option>
+            <option>Citrus</option>
+            <option>Floral</option>
+            <option>Leather</option>
+            <option>Oriental</option>
+            <option>Woody</option>
+          </select>
+        </div>
+        <div class="col-2">
+          <!-- <label for="inputState" class="form-label">State</label> -->
+          <select id="inputState" class="form-select">
+            <option selected>성별</option>
+            <option>여성</option>
+            <option>남성</option>
+            <option>혼성</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div id="colums">
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/554X554.jpeg"></div>
+        <span>시트러스</span>
+  
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+      <figure>
+        <figcaption>향수이름</figcaption>
+        <button value="star"><i class="bi bi-star"></i></button>
+        <div><img src="../img/background.png"></div>
+        <span>시트러스</span>
+      </figure>
+    </div>
+   </div>
+
+
+
+  </div>
+</body>
+</html>

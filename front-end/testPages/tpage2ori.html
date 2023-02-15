@@ -1,0 +1,68 @@
+<!-- 화면상단에 메뉴바 들어가는 내용입니다. -->
+<!-- 다른 파일들 만들 때 복붙하려고 저장해뒀습니다. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link type="text/css" rel="stylesheet" href="../testPages/page5choice.css">
+  <!--  부트스트랩 웹폰트  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript">   
+  $(document).ready( function() {
+    $("#headers").load("../default.html");  // 원하는 파일 경로를 삽입하면 된다
+  });
+  </script>
+ </head>
+<body>
+  
+  <div class="container">
+   <div id="headers"></div>
+   <div id="mask"></div>
+    
+   <div class="row">
+    <div id="content">
+      <h3>향수 취향 테스트</h3>
+      <div id="bar">
+        <progress value="3" max="7"></progress>
+      </div>
+      <h4>2-1. 평소 선호하는 향이나 편안함을 느끼는 향은?</h4>
+      <div class="colums" id="t">
+        <figure>
+          <a href="../testPages/tpage3.html"><img src="../img/orientalFloral.jpg"></a>
+          <figcaption>Oriental Floral</figcaption>
+          <p>꽃 향에 머스크를 더해 관능적인<br>무드와 무게감을 가진 향</p>
+        </figure>
+        <figure>
+          <a href="../testPages/tpage3.html"><img src="../img/orientalAromaF.jpg"></a>
+          <figcaption>Oriental Fougere</figcaption>
+          <p>아로마향과 나무,건초의 향이 <br>결합된 깊은 남성스러운 느낌의 향</p>
+        </figure>
+        <figure>
+          <a href="../testPages/tpage3.html"><img src="../img/orientalWoody.jpg"></a>
+          <figcaption>Oriental Woody</figcaption>
+          <p>나무껍질의 은은한 향과 앰버 <br>향이 결합된 독특하고 깊은 향</p>
+        </figure>
+        <figure>
+          <a href="../testPages/tpage3.html"><img src="../img/orientalSpicy.jpg"></a>
+          <figcaption>Oriental Spicy</figcaption>
+          <p>중동지역 느낌의 화려하고<br>관능적이며고전적인 느낌의 향</p>
+        </figure>
+        <figure>
+          <a href="../testPages/tpage3.html"><img src="../img/oriantalVanilla.jpg"></a>
+          <figcaption>Oriental Vanilla</figcaption>
+          <p>바닐라와 클래식 앰버 노트의<br>달콤하고 부드러운 향</p>
+        </figure>
+        
+      </div>
+    </div>
+   </div>
+  </div>
+</body>
+</html>

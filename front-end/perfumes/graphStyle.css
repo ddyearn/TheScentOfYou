@@ -1,0 +1,68 @@
+
+#mainGround h1{
+  text-align: center;
+  padding: 10%;
+}
+.container{
+  background-image: url('../img/background2.png');
+  background-size: cover;
+  font-family: 'Gmarket Sans TTF';
+}
+
+span{
+  display: inline-block;
+  margin: 1em;
+  margin-left: 1em;
+  padding: 3px;
+  text-decoration: none;
+}
+span:hover{
+  background-color: #8B2C944D;
+}
+
+/* 8.25.목 12시 수정사항 */
+iframe{
+  width: 100%;
+  height: 100%;
+}
+#frame{
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  width: 75em;
+  height: 50em;
+}
+/* css는 위의 두 블록만 수정하였습니다. */
+
+/* 성별에 따른 그래프 페이지 */
+.background{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin: 2em;
+  padding: 1em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.background h2{
+  margin-left: 1em;
+  margin-top: 1%;
+}
+
+/* 연령에 따른 그래프 페이지 설정  */
+.background2{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin: 2em;
+  padding: 1em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.background2 h2{
+  margin-left: 1em;
+  margin-top: 1%;
+}
+.background2 span:hover{
+  background-color: #458C9C4D;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}

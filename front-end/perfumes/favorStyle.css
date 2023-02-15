@@ -1,0 +1,72 @@
+
+#mainGround h1{
+  text-align: center;
+  padding: 10%;
+}
+.container{
+  background-image: url('../img/background2.png');
+  background-size: cover;
+  font-family: 'Gmarket Sans TTF';
+}
+h4{
+  display: inline;
+}
+#iconR{
+  float: right; 
+  margin-right: 3%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+}
+.content{
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+#colums{
+  column-width: 100%;
+  
+}
+img{
+  width: 20%;
+  border: 1px solid #ccc;
+}
+#colums figure{
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+#colums span{
+  display: inline-block;
+  background-color:aliceblue;
+  text-align: center;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 8px;
+}
+figcaption{
+  display: inline-block;
+  text-align: left;
+}
+figure img{
+  width: 10em;
+  height: 8em;
+}
+.row{
+  background-color: white;
+}
+
+figure button{
+  background-color: #ccc;
+  border-radius: 15px;
+  float: right;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}

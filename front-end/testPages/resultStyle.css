@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
+
+.container{
+  font-family: 'Gmarket Sans TTF';
+}
+/*  */
+iframe{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: aliceblue;
+  width: 80%;
+  height: 20em;
+}
+
+#resultText{
+  text-align: center;
+}
+
+#resultText h1{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#resultText p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+span{
+  display: inline-block;
+  margin: 1em;
+  margin-top: 2em;
+}
+
+/*  */
+.container{
+  background-image: url('../img/background2.png');
+  background-size: cover;
+}
+.resultTest{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.row{
+  background-color: rgba(265, 265, 265, 0.6);
+ }
+ #recommend{
+  margin-bottom: 6em;
+ }
+
+ #icon{
+  width:45px;
+  height: 45px;
+  margin: 8px;
+ }
+
+ #share{
+  margin-bottom: 2em;
+ }
+
+ #tag{
+  font-size: 20px;
+ }
+ #pname{
+  font-size: 32px;
+ }
+ #pelse{
+  font-size: 24px;
+ }

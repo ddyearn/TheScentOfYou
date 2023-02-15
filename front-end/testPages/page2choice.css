@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
+
+.container{
+  font-family: 'Gmarket Sans TTF';
+}
+#content{
+  margin-top: 2em ;
+  align-items: center;
+}
+
+#bar{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bar progress{
+  width: 60%;
+}
+
+#content h4{
+  margin-top: 2em;
+  text-align: center;
+  font-family: 'Gmarket Sans TTF';
+}
+
+/* 선택지 css */
+#colums{
+  column-width: 100%;
+  margin: 1em;
+  text-align: center;
+}
+#colums figure{
+  display: inline-block;
+  margin: 1em;
+  margin-top: 2em;
+}
+#colums figure img:hover {
+  border: 5px solid #eee;
+}
+#colums figure img{
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+#colums figure figcaption{
+  text-align: center;
+  padding: 1em;
+  font-size: 24px;
+  font-family: 'Gmarket Sans TTF';
+}
+
+/*  */
+.container{
+  background-image: url('../img/background2.png');
+  background-size: cover;
+}
+.resultTest{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.row{
+ background-color: rgba(265, 265, 265, 0.7);
+}
