@@ -1,0 +1,129 @@
+
+#mainGround h1{
+  text-align: center;
+  padding: 10%;
+}
+.container{
+  background-image: url(../img/background.png);
+  background-size: cover;
+  font-family: 'Gmarket Sans TTF';
+}
+#space{
+  height: 20em;
+}
+
+#popular h4{
+  text-align: center;
+}
+#iconR{
+  float: right; 
+  width:25px;
+  height: 25px;
+  margin-right: 3%;
+}
+.row{
+  background-color: white;
+}
+
+/* 로그인 전의 메인 화면 css */
+#in{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+#sidep{
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 1em;
+  padding-top: 10px;
+  font-size: 17px;
+}
+#sides{
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 8px;
+}
+#profile button{
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  margin: 8px;
+  padding: 5px;
+  margin-left: 13px;
+}
+#linkbtn{
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  margin: 8px;
+  padding: 5px;
+  margin-left: 13px;
+  border: solid 2px #6CB0C6B2;
+}
+#searchbtn{
+  display: inline;
+  border-radius: 5px;
+  background-color: white;
+  border: solid 1px rgb(70, 70, 70);
+  padding-left: 14em;
+}
+#login{
+  border: solid 2px #6CB0C6B2;
+}
+#signin{
+  border: solid 2px #8B2C94B2;
+}
+
+#popular{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+span{
+  display: inline-block;
+  padding: 3px;
+  margin-top: 1em;
+  text-align: center;
+}
+#ma{
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+#sideli{
+  margin-top: 2em;
+}
+#filter{
+  float: right;
+  margin-right: 10px;
+}
+i{
+  width: 30px;
+  height: 30px;
+}
+#number{
+  font-size: 20px;
+  background-color: #FF6666;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 5em;
+  padding: 0;
+}
+#pfname{
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
